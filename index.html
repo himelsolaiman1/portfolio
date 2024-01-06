@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8052ce2beb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="conatainer">
+            <nav>
+                <img src="image/logo1.png" class="logo" alt="HIMEL">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Website Designer/Developer</p>
+                <h1>Hi, I am <span> Himel </span> <br> from Bangladesh</h1>
+            </div>
+
+        </div>
+    </div>
+
+<!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <img src="image/about.png" alt="">
+                </div>
+                
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am an expert web designer and Developer. I am working as a web Designer for three years. <br> The truly things I want share that, Web Design is my passion. I make web site with my <br> customers choice. Make it more usefull and attractive  and give it a chance to go <br> higher level. Client's choice is my priority.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('Skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')"> Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')"> Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Designer </span> <br> Designing Websites stucture. </li>
+                            <li><span>Web Developer </span> <br> Developing Websites in a responsive way. </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2021-current </span> <br> Designing Websites stucture. </li>
+                            <li><span>2021-current </span> <br> Developing Websites in a responsive way. </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2018 </span> <br> BBA- From IIT in CSE </li>
+                            <li><span>2022 </span> <br> MBA- From MIT in CSE </li>
+                        </ul>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-----about close----->
+
+    <!---------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> We will design a beautiful and responsive website <br> for you. And it will be in a low budget. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis impedit vitae eius molestiae quod asperiores, aliquid sint nostrum cum obcaecati</p>
+                    <a href="#">learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-terminal"></i>
+                    <h2>Web Development</h2>
+                    <p> We will develop your website with full responsive way. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis impedit vitae eius molestiae quod asperiores, aliquid sint nostrum cum obcaecati .</p>
+                    <a href="#">learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-------services end -------->
+
+    <!-------portfolio------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">Portfolio</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Website</h3>
+                        <p> The website connect you to the whole world with one ckick. 
+                            Visit the website in your browser</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Social Website</h3>
+                        <p> The website connect you to the whole world with one ckick. 
+                            Visit the website in your browser</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="image/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Bussiness Website</h3>
+                        <p> The website connect you to the whole world with one ckick. 
+                            Visit the website in your browser</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <!-------contact------>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> himelsolaiman51@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i> 01734032003</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="#" class="btn btn2"> Download CV</a>
+                </div>
+    
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made by © Himel</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+
+    </script>
+
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyBKQnzRW-qbfNtlqM_q2FtCvOkqyNFIM9a6cwL5xxzrRhaUldDa8aVlGTjCTKTb1XeTg/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+</body>
+</html>
